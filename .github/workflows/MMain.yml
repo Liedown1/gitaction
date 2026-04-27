@@ -22,3 +22,6 @@ jobs:
         with:
           name: website
           path: index.html
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
